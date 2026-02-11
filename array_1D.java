@@ -43,3 +43,24 @@ class array1max{
 
   }
 }
+
+class arraymin{
+  public static void main(String[] args){
+    int[] numbers={10,20,30,40,50};
+    int min=numbers[0];
+    for(int num:numbers){
+      if(num<min){
+        min=num;
+      }
+    }
+    System.out.println("min:"+min);
+  }
+}
+
+//2D array
+ class Main{
+  public static void main(String[] args){
+    int[][] numbers={{1,2,3},{4,5,6}};
+    System.out.println(numbers[0][0]);
+  }
+}
