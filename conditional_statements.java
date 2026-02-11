@@ -88,3 +88,65 @@ class logicaloperators{
     }
   }
 }
+
+//practice 1:to check the number is positive ,negative or zero
+class demo{
+  public static void main(String[] args){
+    int num=10;
+    if(num<0)
+    {
+      System.out.println("negative number");
+    }
+    else if(num>0)
+    {
+      System.out.println("positive number");
+    }
+    else
+    {
+      System.out.println("zero");
+    }
+  }
+}
+
+//practice 2:largest of three numbers
+class largest{
+  public static void main(String[] args){
+    int a=12;
+    int b=10;
+    int c=90;
+    if(a>b && a>c){
+      System.out.println("a is largest");
+    }
+    else if(b>a && b>c){
+      System.out.println("b is largest");
+    }
+    else{
+      System.out.println("c is largest");
+    }
+  }
+}
+
+//practice 3:character is vowel or consonant using switch
+class character{
+  public static void main(String[] args){
+    Scanner scn=new Scanner(System.in);
+    System.out.println("Enter a character: ");
+    char ch=scn.next().charAt(0);
+    switch(ch){
+      case 'a':System.out.println("a is vowel");
+      break;
+      case 'e':System.out.println("e is vowel");
+      break;
+      case 'i':System.out.println("i is vowel");
+      break;
+      case 'o':System.out.println("o is vowel");
+      break;
+      case 'u':System.out.println("u is vowel");
+      break;
+      default:System.out.println("consonant");
+      break;
+    }
+    
+  }
+}
+

@@ -20,3 +20,11 @@ class variable2{
    
   }
 }
+
+class string{
+  public static void main(String[] args){
+    String a=new String("apple");
+    String b=new String("apple");
+    System.out.println(a==b);
+  }
+}
